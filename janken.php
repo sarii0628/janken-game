@@ -5,10 +5,26 @@ class Janken {
     private $pcHand;
     private $result;
 
+    /*
     public function __construct($playerHand) {
         $this->playerHand = $playerHand;
         $janken_choices  = ["グー","チョキ","パー"];
         $rand_choice = array_rand($janken_choices, 1);
+        $this->pcHand = $janken_choices[$rand_choice];
+    }
+    */
+
+    public function __construct() {
+
+    }
+    
+    public function setPlayerHand($playerHand) {
+        $this->playerHand = $playaerHand;
+    }
+
+    public function setPcHand() {
+        $janken_choices = ["グー", "チョキ", "パー"];
+        $rand_choice = array_rand($janken_choices,1);
         $this->pcHand = $janken_choices[$rand_choice];
     }
 
