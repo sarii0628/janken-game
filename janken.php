@@ -20,7 +20,7 @@ class Janken {
     }
     
     public function setPlayerHand($playerHand) {
-        $this->playerHand = $playaerHand;
+        $this->playerHand = $playerHand;
     }
 
     public function setPcHand() {
