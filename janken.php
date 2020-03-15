@@ -12,8 +12,6 @@ class Janken {
         $this->pcHand = $janken_choices[$rand_choice];
     }
 
-    //コンストラクタ空にして、$playerHand, $pcHandそれぞれのセッターを用意する方がいい？
-
     public function battle() {
         switch ($this->playerHand) {
             case ($this->playerHand == $this->pcHand):
