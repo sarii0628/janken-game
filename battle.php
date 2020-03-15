@@ -1,11 +1,13 @@
 <?php
 require_once('janken.php');
 
-//$janken = new Janken($_POST['playerHand']);
+$janken = new Janken($_POST['playerHand']);
+/*
 $janken = new Janken();
 $janken->setPlayerHand($_POST['playerHand']);
 $janken->setPcHand();
 $janken->battle();
+*/
 ?>
 
 <!DOCTYPE html>
