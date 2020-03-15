@@ -1,2 +1,3 @@
 # janken-game
 じゃんけんゲーム
+fugafuga
